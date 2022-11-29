@@ -1,0 +1,36 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient(to right, #C867DB, #851ed4);
+}
+
+p {
+    text-align: justify;
+
+}
+
+main {
+    background-color: white;
+    border-radius: 20px;         /*Deixa circular nas pontas do fundo*/
+    box-shadow: 10px 15px 20px #8761e8a8;  /*sombra (Lado, baixo, espalhamento*/
+    width: 700px;               /*Tamanho dos lados no main*/
+    height: 700px;              /*Tamanho da altura no main*/
+    padding: 10px;              /*espaçamento da letra nos cantos para o fundo*/
+    margin: auto;               /*Deixara sempre no meio independente do tamanho da tela*/
+    
+}
+
+h1{
+    color: #E8618B;
+    text-align: center;
+    text-shadow: 1px 1px 1px #881439b9;
+}
+
+h2{
+    color: #F266D7;
+    text-shadow: 1px 1px 0 black;
+}

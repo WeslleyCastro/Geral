@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif; /* Se o disposito não tiver a fonte ira tentar as outras 
+            citada*/
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegadas), pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            weight:peso width:largura height: altura
+
+            */
+            font-size: 16px;
+            font-weight: normal;
+            font-style: italic;
+        }
+        h1 {
+            /* shorthand 
+            - font-style -> font-weight -> font-size -> font-family */
+            font: normal bolder 23px arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            font: bolder 20px arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, asperiores expedita dignissimos repellendus perspiciatis corporis molestias iusto cumque autem illo officia aspernatur impedit magni eveniet esse atque! Dolores, nulla aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ex suscipit, pariatur laboriosam, earum voluptatum ab fugit quam enim labore blanditiis deleniti dignissimos quasi. Quia fuga mollitia porro ea id.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ullam perferendis et rerum quidem facilis? Voluptates suscipit molestias, harum ullam alias culpa esse ipsum! Exercitationem modi quia in nulla deleniti.</p>
+            <h2>Subtitulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quidem, voluptatum ipsam, esse eveniet temporibus consequatur quibusdam eius autem, vitae illum? Veritatis tempore ab tenetur quasi dolore odio soluta voluptates.q</p>
+</body>
+</html>
